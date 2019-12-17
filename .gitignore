@@ -37,3 +37,7 @@ data/
 .nyc_output
 assets/*
 !assets/placeholder.md
+
+# intellij
+.idea
+*.iml

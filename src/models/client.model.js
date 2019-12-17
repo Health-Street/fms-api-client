@@ -400,8 +400,8 @@ class Client extends Document {
    * @param {Any} response The response data from the data api request.
    * @return {Any} Returns the umodified response.
    */
-  _save(response) {
-    this.save();
+  async _save(response) {
+    await this.save();
     return response;
   }
 
